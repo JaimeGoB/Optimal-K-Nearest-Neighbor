@@ -7,6 +7,8 @@ Introduction to Statistical Learning
 
 2) From figure(1) it is evident to see that the testing error is lower than the training error. This is not what we would expect. Therefore, exploration of the training and testing datasets was necessary. From the two scatter plots shown under figure(1) we can see two things. The data in the training set are scattered around without dense clusters. However, the test data seems to have 4 dense clusters and the data is not too scattered. This means the model had harder cases for the training set and had easier cases for testing set. Thus, causing a lower testing error than training error. 
 
+*In other words the quality of the trainig set is not good.
+
 ![TrainTestError](https://github.com/JaimeGoB/Optimal-K-Nearest-Neighbor/blob/master/other/testin-vs-error-rate.png)
 
 
